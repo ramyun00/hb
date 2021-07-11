@@ -31,22 +31,43 @@ function App() {
     <div className="app">
       <Helmet>
         <meta charSet="utf-8" />
+        <meta property="og:url" content="https://hbjh.herokuapp.com/" />
+        <meta property="og:title" content="A birthday site for you" />
+        <meta property="og:description" content="Hope you like it!" />
         <title>생🎂축</title>
       </Helmet>
       <div className="title__wrapper">
-        <h1 class="title">생일 축하합니다!</h1>
+        <button className="button" onClick={fireConfetti}>
+          <h1 class="title">생일 축하합니다!</h1>
+        </button>
+
       </div>
       <div className="block1">
-        <p>보고 싶어!</p>
+        <iframe width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/p3NseBggIgQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <p className="from">잼스 올림</p>
       </div>
       <div className="block2">
-        <p>한국에서 보자!</p>
+        <iframe width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/p3NseBggIgQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <p className="from">애나 올림</p>
       </div>
       <div className="block3">
-        <p>오빠 응원하고 있어!</p>
+        <p>냥냥냥!</p>
       </div>
       <div className="block4">
-        <p>!</p>
+        <p className="message">오빠 응원하고 있어!</p>
+        <p className="message">조만간 한국에서 보자!</p>
       </div>
     </div>
   );
