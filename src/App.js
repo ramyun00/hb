@@ -43,30 +43,18 @@ function App() {
 
       </div>
       <div className="block1">
-        <iframe width="560"
-          height="315"
-          src="https://www.youtube-nocookie.com/embed/p3NseBggIgQ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pF7ybJ-k0zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p className="from">잼스 올림</p>
       </div>
       <div className="block2">
-        <iframe width="560"
-          height="315"
-          src="https://www.youtube-nocookie.com/embed/p3NseBggIgQ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Si4tehHIBbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p className="from">애나 올림</p>
       </div>
       <div className="block3">
-        <p>냥냥냥!</p>
+        <p>보고 싶다!</p>
       </div>
       <div className="block4">
-        <p className="message">오빠 응원하고 있어!</p>
+        <p className="message">우리가 형/오빠를 응원하고 있어!</p>
         <p className="message">조만간 한국에서 보자!</p>
       </div>
     </div>
