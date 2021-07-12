@@ -46,6 +46,7 @@ body {
 }
 
 .block3 {
+  position: relative;
   height: 100vh;
   background-color: #A67665;
 }
@@ -80,4 +81,17 @@ body {
 .message {
   margin: 0;
   margin-bottom: 1rem;
+}
+
+.picture {
+  width: 100%;
+  max-width: 600px;
+}
+
+.picture-text {
+  position: absolute;
+  transform: rotate(-12deg);
+  left: 5%;
+  top: 5%;
+  font-size: 7rem;
 }

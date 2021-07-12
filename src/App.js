@@ -1,6 +1,7 @@
 import confetti from 'canvas-confetti';
 import { Helmet } from 'react-helmet';
 import './App.css';
+import StationImg from './assets/station.jpeg';
 
 function App() {
   function fireConfetti() {
@@ -51,7 +52,9 @@ function App() {
         <p className="from">애나 올림</p>
       </div>
       <div className="block3">
-        <p>보고 싶다!</p>
+        <p class="picture-text">보고 싶다!</p>
+        <img class="picture" src={StationImg} alt="동대구역" />
+
       </div>
       <div className="block4">
         <p className="message">우리가 형/오빠를 응원하고 있어!</p>
