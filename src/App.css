@@ -95,3 +95,8 @@ body {
   top: 5%;
   font-size: 7rem;
 }
+
+.camping-picture {
+  border-radius: 50%;
+  width: 40%;
+}

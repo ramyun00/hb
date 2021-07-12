@@ -2,6 +2,7 @@ import confetti from 'canvas-confetti';
 import { Helmet } from 'react-helmet';
 import './App.css';
 import StationImg from './assets/station.jpeg';
+import CampingImg from './assets/camping.jpeg';
 
 function App() {
   function fireConfetti() {
@@ -59,6 +60,7 @@ function App() {
       <div className="block4">
         <p className="message">우리가 형/오빠를 응원하고 있어!</p>
         <p className="message">조만간 한국에서 보자!</p>
+        <img class="camping-picture" src={CampingImg} alt="Sticking face out of trailer" />
       </div>
     </div>
   );
