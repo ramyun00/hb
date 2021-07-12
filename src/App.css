@@ -79,6 +79,7 @@ body {
 }
 
 .message {
+  font-size: 4rem;
   margin: 0;
   margin-bottom: 1rem;
 }
@@ -96,7 +97,13 @@ body {
   font-size: 7rem;
 }
 
+@media all and (min-width: 1000px) {
+  .picture-text {
+    left: 25%;
+  }
+}
+
 .camping-picture {
   border-radius: 50%;
-  width: 40%;
+  max-height: 40vh;
 }
